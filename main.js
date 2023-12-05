@@ -1,5 +1,4 @@
 import axios from "axios";
-import { translator } from './trn';
 let doc = document;
 let base_url = 'http://localhost:3000/arr'
 let close = doc.querySelector('.modal__close');
@@ -16,23 +15,23 @@ close.onclick = e => {
 form.onsubmit = e => {
   e.preventDefault();
   let items = form.querySelectorAll('.item');
-  items.forEach(async item => {
+  items.forEach(item => {
     let in_1 = item.children.eng;
-    let in_2 = item.children.trn;
-    if (in_1.value.length > 0 && in_2.value.length > 0) {
-      let tr = await translator.translate(`${in_1.value}`);
-      let obj = {
-        eng: in_1.value,
-        trn: tr
-      };
-      axios.get(base_url + '/?eng=' + in_1.value).then(res_i => {
-        if (res_i.data.length === 0) {
-          axios.post(base_url, obj)
-            .then(res => console.log(res))
-        }
-      })
-
+    if (in_1.value.length > 0) {
+      let obj = {};
+      axios.get(`https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=en&tl=ru&q=${in_1.value}`)
+        .then(trn => {
+          obj = {
+            eng: in_1.value,
+            trn: trn.data[0][0][0]
+          };
+          axios.get(base_url + '/?eng=' + in_1.value).then(res_i => {
+            if (res_i.data.length === 0) {
+              axios.post(base_url, obj)
+                .then(res => console.log(res))
+            }
+          })
+        })
     }
   });
-
 }
