@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .btn {
+            outline: 0;
+        }
+
+        .btn:focus {
+            box-shadow: 0px 0px 1px rgb(2, 125, 2);
+            transform: translate(0, 0);
+            transition: all 300ms ease;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <button class="btn" autofocus style="width: 30px;">1#</button>
+        <button class="btn" style="width: 30px;">2#</button>
+        <button class="btn" style="width: 30px;">3#</button>
+        <button class="btn" style="width: 30px;">4#</button>
+        <button class="btn" style="width: 30px;">5#</button>
+        <button class="btn" style="width: 30px;">6#</button>
+    </header>
+    <section class="view" style="margin-top: 40px;">
+        <button class="btn view__go">Let's Go, Choose level!</button>
+    </section>
+    <section class="train-st">
+        <div class="text">
+            <p></p>
+        </div>
+        <div class="inputs">
+            <input type="text">
+        </div>
+
+        <div class="buttons">
+            <button class="btn enter">Enter</button>
+        </div>
+    </section>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
