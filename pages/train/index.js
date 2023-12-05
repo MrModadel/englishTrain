@@ -12,7 +12,7 @@ let btn = doc.querySelector('.enter');
 let view__go = doc.querySelector('.view__go');
 let view = view__go.parentElement;
 let train = doc.querySelector('.train-st')
-let arr
+let arr;
 await axios.get(base_url)
     .then(res => {
         arr = res.data;
