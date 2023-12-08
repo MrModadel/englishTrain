@@ -35,11 +35,13 @@ function repeat_rl() {
     let r = Math.round(Math.random() * um)
     um--;
     temp = choose_arr[r];
+    console.log(temp);
     p.innerText = temp.trn;
     choose_arr = choose_arr.filter(item => choose_arr.indexOf(item) !== r);
     count.innerHTML = choose_arr.length;
 }
 btn.onclick = e => {
+    console.log( temp.eng);
     if (input.value.toLowerCase().trim() !== temp.eng.toLowerCase().trim())
         alert("Ответ:" + temp.eng + '=' + temp.trn)
     repeat_rl();
