@@ -33,7 +33,7 @@ form.onsubmit = e => {
   e.preventDefault();
   let item = items[or];
   let in_1 = item.children.eng;
-  console.log(item);
+  item.focus();
   if (in_1.value.length > 0) {
     let obj = {};
     axios.get(`https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=en&tl=ru&q=${in_1.value}`)

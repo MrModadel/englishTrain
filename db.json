@@ -1,5 +1,504 @@
 {
   "arr": [
-
+    {
+      "eng": "rutine",
+      "trn": "рутинный",
+      "id": 1
+    },
+    {
+      "eng": "weekly",
+      "trn": "еженедельно",
+      "id": 2
+    },
+    {
+      "eng": "at least",
+      "trn": "по меньшей мере",
+      "id": 3
+    },
+    {
+      "eng": "daily",
+      "trn": "ежедневно",
+      "id": 4
+    },
+    {
+      "eng": "revise",
+      "trn": "исправлять",
+      "id": 5
+    },
+    {
+      "eng": "active",
+      "trn": "активный",
+      "id": 6
+    },
+    {
+      "eng": "say it aloud",
+      "trn": "скажи это вслух",
+      "id": 7
+    },
+    {
+      "eng": "silently",
+      "trn": "молча",
+      "id": 8
+    },
+    {
+      "eng": "highlighter pen",
+      "trn": "маркер",
+      "id": 9
+    },
+    {
+      "eng": "rub",
+      "trn": "натирать",
+      "id": 10
+    },
+    {
+      "eng": "out",
+      "trn": "вне",
+      "id": 11
+    },
+    {
+      "eng": "rubber",
+      "trn": "резина",
+      "id": 12
+    },
+    {
+      "eng": "synonyms",
+      "trn": "синонимы",
+      "id": 13
+    },
+    {
+      "eng": "opposites",
+      "trn": "противоположности",
+      "id": 14
+    },
+    {
+      "eng": "filthy",
+      "trn": "грязный",
+      "id": 15
+    },
+    {
+      "eng": "clean",
+      "trn": "чистый",
+      "id": 16
+    },
+    {
+      "eng": "permanent",
+      "trn": "постоянный",
+      "id": 17
+    },
+    {
+      "eng": "kind",
+      "trn": "добрый",
+      "id": 18
+    },
+    {
+      "eng": "smooth",
+      "trn": "гладкий",
+      "id": 19
+    },
+    {
+      "eng": "entrance",
+      "trn": "вход",
+      "id": 20
+    },
+    {
+      "eng": "dead",
+      "trn": "мертвый",
+      "id": 21
+    },
+    {
+      "eng": "accept",
+      "trn": "принимать",
+      "id": 22
+    },
+    {
+      "eng": "argue",
+      "trn": "спорить",
+      "id": 23
+    },
+    {
+      "eng": "argument",
+      "trn": "аргумент",
+      "id": 24
+    },
+    {
+      "eng": "advice",
+      "trn": "совет",
+      "id": 25
+    },
+    {
+      "eng": "communicate",
+      "trn": "общаться",
+      "id": 26
+    },
+    {
+      "eng": "highlight",
+      "trn": "выделять",
+      "id": 27
+    },
+    {
+      "eng": "choice",
+      "trn": "выбор",
+      "id": 28
+    },
+    {
+      "eng": "expand",
+      "trn": "расширять",
+      "id": 29
+    },
+    {
+      "eng": "different",
+      "trn": "другой",
+      "id": 30
+    },
+    {
+      "eng": "underline",
+      "trn": "подчеркнуть",
+      "id": 31
+    },
+    {
+      "eng": "write down",
+      "trn": "записывать",
+      "id": 32
+    },
+    {
+      "eng": "translation",
+      "trn": "перевод",
+      "id": 33
+    },
+    {
+      "eng": "mess",
+      "trn": "беспорядок",
+      "id": 34
+    },
+    {
+      "eng": "untidy ",
+      "trn": "неопрятный",
+      "id": 35
+    },
+    {
+      "eng": "draw",
+      "trn": "рисовать",
+      "id": 36
+    },
+    {
+      "eng": "make a note of",
+      "trn": "сделать заметку",
+      "id": 37
+    },
+    {
+      "eng": "forget",
+      "trn": "забывать",
+      "id": 38
+    },
+    {
+      "eng": "topic",
+      "trn": "тема",
+      "id": 39
+    },
+    {
+      "eng": "note down",
+      "trn": "записывать",
+      "id": 40
+    },
+    {
+      "eng": "translate",
+      "trn": "переводить",
+      "id": 41
+    },
+    {
+      "eng": "into",
+      "trn": "в",
+      "id": 42
+    },
+    {
+      "eng": "explanation",
+      "trn": "объяснение",
+      "id": 43
+    },
+    {
+      "eng": "tip",
+      "trn": "кончик",
+      "id": 44
+    },
+    {
+      "eng": "mix",
+      "trn": "смешивание",
+      "id": 45
+    },
+    {
+      "eng": "up",
+      "trn": "вверх",
+      "id": 46
+    },
+    {
+      "eng": "date",
+      "trn": "дата",
+      "id": 47
+    },
+    {
+      "eng": "necessary",
+      "trn": "необходимый",
+      "id": 48
+    },
+    {
+      "eng": "unnecessary",
+      "trn": "ненужный",
+      "id": 49
+    },
+    {
+      "eng": "awful",
+      "trn": "ужасный",
+      "id": 50
+    },
+    {
+      "eng": "dreadful",
+      "trn": "ужасный",
+      "id": 51
+    },
+    {
+      "eng": "enjoy",
+      "trn": "наслаждаться",
+      "id": 52
+    },
+    {
+      "eng": "enjoyment",
+      "trn": "удовольствие",
+      "id": 53
+    },
+    {
+      "eng": "enjoyable",
+      "trn": "приятный",
+      "id": 54
+    },
+    {
+      "eng": "enjoy living",
+      "trn": "наслаждайтесь жизнью",
+      "id": 55
+    },
+    {
+      "eng": "spent two weeks in ",
+      "trn": "провел две недели в",
+      "id": 56
+    },
+    {
+      "eng": "bilingual",
+      "trn": "двуязычный",
+      "id": 57
+    },
+    {
+      "eng": "fun",
+      "trn": "веселье",
+      "id": 58
+    },
+    {
+      "eng": "for fun",
+      "trn": "ради забавы",
+      "id": 59
+    },
+    {
+      "eng": "for the fun of it",
+      "trn": "ради удовольствия",
+      "id": 60
+    },
+    {
+      "eng": "make fun of somebody",
+      "trn": "посмеяться над кем-то",
+      "id": 61
+    },
+    {
+      "eng": "phonemic sumbols",
+      "trn": "фонематические символы",
+      "id": 62
+    },
+    {
+      "eng": "definition",
+      "trn": "определение",
+      "id": 63
+    },
+    {
+      "eng": "bold",
+      "trn": "смелый",
+      "id": 64
+    },
+    {
+      "eng": "phrases",
+      "trn": "фразы",
+      "id": 65
+    },
+    {
+      "eng": "knee",
+      "trn": "колено",
+      "id": 66
+    },
+    {
+      "eng": "comb",
+      "trn": "гребень",
+      "id": 67
+    },
+    {
+      "eng": "castle",
+      "trn": "замок",
+      "id": 68
+    },
+    {
+      "eng": "salmon",
+      "trn": "лосось",
+      "id": 69
+    },
+    {
+      "eng": "receipt",
+      "trn": "квитанция",
+      "id": 70
+    },
+    {
+      "eng": "define",
+      "trn": "определять",
+      "id": 71
+    },
+    {
+      "eng": "emphasise",
+      "trn": "подчеркивать",
+      "id": 72
+    },
+    {
+      "eng": "relating",
+      "trn": "относящийся",
+      "id": 73
+    },
+    {
+      "eng": "connected to ",
+      "trn": "подключен к",
+      "id": 74
+    },
+    {
+      "eng": "amount",
+      "trn": "количество",
+      "id": 75
+    },
+    {
+      "eng": "official",
+      "trn": "чиновник",
+      "id": 76
+    },
+    {
+      "eng": "behave",
+      "trn": "вести себя",
+      "id": 77
+    },
+    {
+      "eng": "tick",
+      "trn": "галочка",
+      "id": 78
+    },
+    {
+      "eng": "industrial",
+      "trn": "промышленный",
+      "id": 79
+    },
+    {
+      "eng": "sum",
+      "trn": "сумма",
+      "id": 80
+    },
+    {
+      "eng": "pretend",
+      "trn": "притворяться",
+      "id": 81
+    },
+    {
+      "eng": "certificate",
+      "trn": "сертификат",
+      "id": 82
+    },
+    {
+      "eng": "not at all",
+      "trn": "нисколько",
+      "id": 83
+    },
+    {
+      "eng": "legal",
+      "trn": "юридический",
+      "id": 84
+    },
+    {
+      "eng": "guess the meaning",
+      "trn": "угадай смысл",
+      "id": 85
+    },
+    {
+      "eng": "guess",
+      "trn": "предполагать",
+      "id": 86
+    },
+    {
+      "eng": "preposition",
+      "trn": "предлог",
+      "id": 87
+    },
+    {
+      "eng": "spelling",
+      "trn": "написание",
+      "id": 88
+    },
+    {
+      "eng": "puppy",
+      "trn": "щенок",
+      "id": 89
+    },
+    {
+      "eng": "each",
+      "trn": "каждый",
+      "id": 90
+    },
+    {
+      "eng": "pole",
+      "trn": "полюс",
+      "id": 91
+    },
+    {
+      "eng": "pronoun",
+      "trn": "местоимение",
+      "id": 92
+    },
+    {
+      "eng": "nouns",
+      "trn": "существительные",
+      "id": 93
+    },
+    {
+      "eng": "verbs",
+      "trn": "глаголы",
+      "id": 94
+    },
+    {
+      "eng": "adjectives",
+      "trn": "прилагательные",
+      "id": 95
+    },
+    {
+      "eng": "adverb",
+      "trn": "наречие",
+      "id": 96
+    },
+    {
+      "eng": "definite article",
+      "trn": "определенный артикль",
+      "id": 97
+    },
+    {
+      "eng": "indefinite article",
+      "trn": "неопределенный артикль",
+      "id": 98
+    },
+    {
+      "eng": "conjunction",
+      "trn": "соединение",
+      "id": 99
+    },
+    {
+      "eng": "link word",
+      "trn": "слово-связка",
+      "id": 100
+    }
   ]
 }
